@@ -1,0 +1,183 @@
+body {
+  background-color: #F9FAFA;
+  padding-top: 72px;
+  padding-bottom: 30px;
+}
+
+.gapsi-navbar {
+  background: #FFFFFF;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.03);
+}
+
+.gapsi-navbar-name {
+  font-weight: 600;
+}
+
+.gapsi-b-container {
+  margin: 0 auto !important;
+  margin-top: 30px !important;
+  max-width: 420px;
+  height: auto;
+  background-color: #FFFFFF;
+  border: solid 1px rgba(0, 0, 0, 0.05);
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.03);
+  border-radius: 7px;
+  margin: 18px 12px 30px 12px;
+  padding: 0;
+  -webkit-transition: 0.3s ease;
+    -moz-transition: 0.3s ease;
+    -ms-transition: 0.3s ease;
+    -o-transition: 0.3s ease;
+    transition: 0.3s ease;
+}
+
+.gapsi-b-container-header {
+  padding: 0;
+  height: 56px;
+  background: rgba(0, 0, 0, 0.02);
+  border-radius: 6px 6px 0px 0px;
+  border-bottom: solid 1px rgba(0, 0, 0, 0.04);
+  -webkit-transition: 0.3s ease;
+    -moz-transition: 0.3s ease;
+    -ms-transition: 0.3s ease;
+    -o-transition: 0.3s ease;
+    transition: 0.3s ease;
+}
+
+.gapsi-b-container-header h1 {
+  margin-top: 17px;
+  margin-left: 16px;
+  float: left;
+  font-size: 16px;
+}
+
+.gapsi-b-container-header div {
+  margin-top: 10px;
+  margin-right: 16px;
+  float: right;
+  width: 36px;
+  height: 36px;
+  border-radius: 100px;
+  background: rgba(0, 0, 0, 0.07);
+  border: solid 1px transparent;
+  -webkit-transition: 0.3s ease;
+    -moz-transition: 0.3s ease;
+    -ms-transition: 0.3s ease;
+    -o-transition: 0.3s ease;
+    transition: 0.3s ease;
+  cursor: pointer;
+}
+
+.gapsi-b-container-header div:hover {
+  background-color: rgba(0, 0, 0, 0.08);
+  border: solid 1px rgba(0, 0, 0, 0.08);
+}
+
+.gapsi-b-container-body {
+  padding: 72px 16px;
+  text-align: center;
+}
+
+.gapsi-b-container-body img {
+  border-radius: 80px;
+  margin-top: 14px;
+  margin-bottom: 1px;
+  border: solid 3px #265CB3;
+  box-shadow: 0px 4px 200px rgba(38, 92, 179, 0.0);
+  -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -o-transition: 0.4s;
+    transition: 0.4s;
+  
+}
+
+.gapsi-b-container-body img:hover {
+  border-radius: 16px;
+  box-shadow: 0px 4px 200px rgba(38, 92, 179, 0.9);
+}
+
+.gapsi-b-container-body p {
+  margin-top: 14px;
+  margin-bottom: 14px;
+}
+
+.gapsi-b-btn {
+  background-color: #265CB3;
+  color: #fff;
+  padding-left: 36px;
+  padding-right: 36px;
+  margin-top: 20px;
+  -webkit-transition: 0.3s ease;
+    -moz-transition: 0.3s ease;
+    -ms-transition: 0.3s ease;
+    -o-transition: 0.3s ease;
+    transition: 0.3s ease;
+}
+
+.gapsi-b-btn:hover {
+  background-color: #000;
+  color: #fff;
+  padding-left: 28px;
+  padding-right: 28px;
+}
+
+.gapsi-b-container-footer {
+  width: 100%;
+  height: auto;
+  padding: 14px 14px 0px 14px;
+  -webkit-transition: 0.3s ease;
+    -moz-transition: 0.3s ease;
+    -ms-transition: 0.3s ease;
+    -o-transition: 0.3s ease;
+    transition: 0.3s ease;
+}
+
+.gapsi-b-container-footer p {
+  width: 100%;
+  font-size: 12px;
+  padding: 10px 12px;
+  text-align: right;
+  border: solid 1px rgba(0, 0, 0, 0.05);
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.03);
+  border-radius: 6px;
+  -webkit-transition: 0.3s ease;
+    -moz-transition: 0.3s ease;
+    -ms-transition: 0.3s ease;
+    -o-transition: 0.3s ease;
+    transition: 0.3s ease;
+}
+
+@media (max-width: 560px) {
+  .gapsi-navbar-name {
+    display: none;
+  }
+
+  .gapsi-b-btn {
+    width: 100%;
+  }
+
+  .gapsi-b-container {
+    max-width: 320px;
+    padding: 20px;
+  }
+
+  .gapsi-b-container-header {
+    background: rgba(0, 0, 0, 0.02);
+    border-radius: 8px;
+    border: solid 1px rgba(0, 0, 0, 0.04);
+  }
+
+  .gapsi-b-container-header div {
+    background: rgba(0, 0, 255, 0, 0.3);
+  }
+
+  .gapsi-b-container-footer p {
+    text-align: center;
+  }
+
+  .gapsi-b-container-body img {
+    border-radius: 16px;
+  }
+}
