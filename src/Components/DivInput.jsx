@@ -1,7 +1,7 @@
-import React,{forwardRef,useEff,useRef} from "react"
+import React,{forwardRef,useEffect,useRef} from "react"
 
 export default forwardRef(({ type='text', icon='user', placeholder='',
-name,id,value,className,required,isFocused,handlerChange},ref) => {
+name,id,value,className,required,isFocused,handleChange},ref) => {
     const input = ref ? ref :useRef();
     useEffect(()=> {
         if(isFocused) {
@@ -15,7 +15,7 @@ name,id,value,className,required,isFocused,handlerChange},ref) => {
         </span>
         <input type={type} placeholder={placeholder} name={name}
         id={id} value={value} className={className} ref={input}
-        required={required} onChange={(e) => handlerChange(e)} />
+        required={required} onChange={(e) => handleChange(e)} />
     </div>
   )
 });

@@ -8,9 +8,9 @@ const DivTable = ({children, col, off, classLoad, classTable}) => {
                 <div className='card-body'>
                     <img src='/loading.gif' width="36" height="36" className='img-fluid'></img>
                 </div>
-                <div className={'table-responsive '+classLoad}>
-                    {children}
-                </div>
+            </div>
+            <div className={'table-responsive '+classTable}>
+                {children}
             </div>
         </div>
     </div>
