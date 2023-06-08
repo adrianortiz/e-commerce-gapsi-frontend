@@ -1,7 +1,10 @@
 # Gapsi - Front-end - React JS
-front-end basado en React JS
+Front-end basado en React JS, con Back-end en Spring Boot Rest
 
-**Características:*
+**NOTA: El Back-end lo puedes decargar de:**
+    - Spring Boot [`Proveedores API`](https://github.com/adrianortiz/e-commerce-gapsi-backend)
+
+**Características:**
 * Bienvenida
 * Proveedores
 
