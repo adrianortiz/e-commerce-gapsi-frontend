@@ -148,7 +148,38 @@ body {
     transition: 0.3s ease;
 }
 
+@media (max-width: 780px) {
+  .gapsi-menu-title {
+    float: left;
+    width: 100%;
+    padding-bottom: 12px;
+  }
+
+  .gapsi-menu-buttons {
+    width: 100%;
+  }
+
+  .gapsi-menu-buttons .btn-dark {
+    width: calc(50% - 12px) !important;
+    margin: 0px 6px 0 0 !important;
+  }
+
+  .gapsi-menu-buttons .btn-secondary {
+    width: calc(50% - 12px) !important;
+    margin-left: 0 0 0 6px !important;
+  }
+}
+
 @media (max-width: 560px) {
+
+  .gapsi-main-menu {
+    display: none;
+  }
+
+  .gapsi-main-body {
+    width: 100% !important;
+  }
+
   .gapsi-navbar-name {
     display: none;
   }
@@ -272,7 +303,7 @@ body {
 
 .gapsi-menu-title {
   float: left;
-  width: 300px;
+  width: 130px;
 }
 
 .gapsi-menu-title p {
@@ -372,3 +403,36 @@ tr:hover {
   font-weight: bold;
 }
 
+.gapsi-pagination-container {
+  width: 100%;
+  height: auto;
+  text-align: right !important;
+  background-color: rgba(0, 0, 0, 0.03);
+    padding: 12px;
+    border-radius: 12px;
+}
+
+.gapsi-pagination-container  .justify-content-md-center {
+  text-align: right !important;
+}
+
+.pagination {
+  margin-bottom: 0;
+  text-align: right !important;
+}
+
+.pagination li .page-link {
+  border-radius: 1000px !important;
+  margin: 6px;
+  width: 37px;
+  height: 37px;
+  text-align: center;
+  line-height: 22px;
+  color: #000;
+}
+
+.pagination .active .page-link {
+  background: #000;
+  color: #FFFFFF;
+  border: solid 1px #000;
+}

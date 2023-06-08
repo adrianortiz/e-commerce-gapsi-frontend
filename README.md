@@ -20,7 +20,9 @@ front-end basado en React JS
 * Url base del front-end `http://localhost:5173`
 
 ## Imagenes del proyecto
-![API](https://github.com/adrianortiz/e-commerce-gapsi-frontend/blob/main/public/img-01-frontend.png)
+![Welcome](https://github.com/adrianortiz/e-commerce-gapsi-frontend/blob/main/public/img-01-frontend.png)
+
+![CRUD](https://github.com/adrianortiz/e-commerce-gapsi-frontend/blob/main/public/img-02-frontend.png)
 
 ## React JS
 

@@ -39,7 +39,7 @@ const Proveedores = () => {
   const getProveedores = async(page) => {
     const res = await sendRequest('GET', '', '/rest/proveedor/paginado?pagina=' + page + '&size=4', '');
     setProveedores(res.proveedores);
-    setRows(20); // total registros
+    setRows(res.total); // total registros
     setPageSize(res.size) // registros por pagina
     setClassTable('');
     setClassLoad('d-none');
@@ -158,8 +158,10 @@ const Proveedores = () => {
             ))}
           </tbody>
         </table>
-        <PaginationControl changePage={page => goPage(page)} next={true} limit={pageSize} page={page} total={rows} />
       </DivTable>
+      <div className='gapsi-pagination-container'>
+          <PaginationControl changePage={page => goPage(page)} next={true} limit={pageSize} page={page} total={rows} />
+        </div>
       
       <Modal title={title} modal='modalProveedores'>
         <div className='modal-body'>
